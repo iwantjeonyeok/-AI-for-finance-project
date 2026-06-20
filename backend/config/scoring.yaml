@@ -1,0 +1,18 @@
+# 후보 보고서 점수 가중치. 합이 1.0 이 되도록 권장하나 강제하지 않는다(정규화하지 않음).
+# candidate_score = w_reputation*reputation + w_recency*recency
+#                 + w_evidence*evidence_clarity + w_uniqueness*uniqueness
+weights:
+  reputation: 0.30
+  recency: 0.30
+  evidence_clarity: 0.20
+  uniqueness: 0.20
+
+# recency_score 계산: 발행 후 경과일이 half_life_days 일 때 0.5 가 되는 지수 감쇠.
+recency_half_life_days: 45
+
+# 보고서 선정 규칙
+selection:
+  max_reports_per_stock: 5
+  min_distinct_institutions: 3       # 가능하면 최소 이 수의 서로 다른 기관 포함
+  prefer_one_per_institution: true   # 기본적으로 기관당 1개 우선
+  duplicate_similarity_threshold: 0.82  # 코사인 유사도 이상이면 중복 군집으로 묶음

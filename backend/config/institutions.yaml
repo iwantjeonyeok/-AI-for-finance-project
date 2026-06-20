@@ -1,0 +1,61 @@
+# 국내 증권사 / 리서치 기관 평판도 설정.
+# reputation_score 는 0~1. 관리자가 자유롭게 수정 가능.
+# domains 는 보고서 출처 URL 의 호스트 매칭에 사용한다.
+# enabled: false 인 기관의 보고서는 후보에서 제외한다.
+# 알 수 없는 기관(목록에 없음)의 기본 reputation_score 는 default_reputation 을 따른다.
+
+default_reputation: 0.5
+
+# 국내 기관 여부가 확인되지 않으면(아래 목록에도 없고 도메인 매칭도 안 됨)
+# 후보에서 제외한다. require_known_domestic=true 이면 이 규칙을 강제한다.
+require_known_domestic: true
+
+institutions:
+  - name: 미래에셋증권
+    domains: [miraeasset.com, securities.miraeasset.com]
+    reputation_score: 0.85
+    enabled: true
+  - name: NH투자증권
+    domains: [nhqv.com, nhsec.com]
+    reputation_score: 0.82
+    enabled: true
+  - name: 삼성증권
+    domains: [samsungpop.com, samsungsecurities.com]
+    reputation_score: 0.84
+    enabled: true
+  - name: KB증권
+    domains: [kbsec.com]
+    reputation_score: 0.80
+    enabled: true
+  - name: 한국투자증권
+    domains: [truefriend.com]
+    reputation_score: 0.83
+    enabled: true
+  - name: 키움증권
+    domains: [kiwoom.com]
+    reputation_score: 0.78
+    enabled: true
+  - name: 신한투자증권
+    domains: [shinhansec.com, shinhaninvest.com]
+    reputation_score: 0.79
+    enabled: true
+  - name: 하나증권
+    domains: [hanaw.com]
+    reputation_score: 0.77
+    enabled: true
+  - name: 대신증권
+    domains: [daishin.com]
+    reputation_score: 0.74
+    enabled: true
+  - name: 메리츠증권
+    domains: [meritz.co.kr]
+    reputation_score: 0.75
+    enabled: true
+  - name: 유안타증권
+    domains: [myasset.com]
+    reputation_score: 0.70
+    enabled: true
+  - name: 하이투자증권
+    domains: [hi-ib.com]
+    reputation_score: 0.68
+    enabled: true

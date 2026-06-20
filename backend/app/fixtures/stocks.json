@@ -1,0 +1,14 @@
+[
+  {"ticker": "005930", "name": "삼성전자", "market": "KOSPI", "current_price": 70000, "market_cap": 417000000000000, "annual_vol": 0.26, "drift": 0.05},
+  {"ticker": "000660", "name": "SK하이닉스", "market": "KOSPI", "current_price": 175000, "market_cap": 127000000000000, "annual_vol": 0.38, "drift": 0.10},
+  {"ticker": "035420", "name": "NAVER", "market": "KOSPI", "current_price": 210000, "market_cap": 34000000000000, "annual_vol": 0.32, "drift": 0.03},
+  {"ticker": "035720", "name": "카카오", "market": "KOSPI", "current_price": 48000, "market_cap": 21000000000000, "annual_vol": 0.40, "drift": -0.02},
+  {"ticker": "005380", "name": "현대차", "market": "KOSPI", "current_price": 245000, "market_cap": 51000000000000, "annual_vol": 0.28, "drift": 0.04},
+  {"ticker": "051910", "name": "LG화학", "market": "KOSPI", "current_price": 400000, "market_cap": 28000000000000, "annual_vol": 0.34, "drift": 0.00},
+  {"ticker": "006400", "name": "삼성SDI", "market": "KOSPI", "current_price": 350000, "market_cap": 24000000000000, "annual_vol": 0.36, "drift": 0.02},
+  {"ticker": "207940", "name": "삼성바이오로직스", "market": "KOSPI", "current_price": 950000, "market_cap": 67000000000000, "annual_vol": 0.30, "drift": 0.06},
+  {"ticker": "068270", "name": "셀트리온", "market": "KOSPI", "current_price": 180000, "market_cap": 39000000000000, "annual_vol": 0.33, "drift": 0.03},
+  {"ticker": "105560", "name": "KB금융", "market": "KOSPI", "current_price": 75000, "market_cap": 30000000000000, "annual_vol": 0.24, "drift": 0.05},
+  {"ticker": "012450", "name": "한화에어로스페이스", "market": "KOSPI", "current_price": 300000, "market_cap": 15000000000000, "annual_vol": 0.42, "drift": 0.12},
+  {"ticker": "454910", "name": "두산로보틱스", "market": "KOSPI", "current_price": 65000, "market_cap": 4200000000000, "annual_vol": 0.55, "drift": 0.08}
+]

@@ -1,0 +1,20 @@
+# Python
+__pycache__/
+*.pyc
+.pytest_cache/
+.venv/
+venv/
+*.db
+
+# env
+.env
+.env.local
+
+# Node / Next
+node_modules/
+.next/
+out/
+npm-debug.log*
+
+# OS
+.DS_Store

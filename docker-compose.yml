@@ -1,0 +1,29 @@
+services:
+  backend:
+    build: ./backend
+    ports:
+      - "8000:8000"
+    environment:
+      DEMO_MODE: "${DEMO_MODE:-true}"
+      ANTHROPIC_API_KEY: "${ANTHROPIC_API_KEY:-}"
+      SEARCH_API_KEY: "${SEARCH_API_KEY:-}"
+      LLM_MODEL: "${LLM_MODEL:-claude-opus-4-8}"
+      DATABASE_URL: "sqlite:////app/data/bl_portfolio.db"
+      PORTFOLIO_HORIZON_MONTHS: "${PORTFOLIO_HORIZON_MONTHS:-3}"
+      TAU: "${TAU:-0.05}"
+      RISK_AVERSION: "${RISK_AVERSION:-2.5}"
+      MAX_ASSET_WEIGHT: "${MAX_ASSET_WEIGHT:-0.40}"
+    volumes:
+      - bl_data:/app/data
+
+  frontend:
+    build: ./frontend
+    ports:
+      - "3000:3000"
+    environment:
+      NEXT_PUBLIC_API_BASE: "http://localhost:8000"
+    depends_on:
+      - backend
+
+volumes:
+  bl_data:

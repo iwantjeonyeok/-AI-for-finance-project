@@ -1,0 +1,166 @@
+{
+  "005930": [
+    {
+      "source_id": "rpt-005930-mirae",
+      "institution": "미래에셋증권",
+      "title": "삼성전자 - HBM 모멘텀과 메모리 업사이클 본격화",
+      "url": "https://securities.miraeasset.com/research/005930-20260605.pdf",
+      "published_at": "2026-06-05",
+      "accessible": true,
+      "target_price": 95000,
+      "evidence_clarity_score": 0.9,
+      "raw_text": "메모리 가격 반등과 HBM 출하 확대로 실적 개선이 본격화된다. DRAM 업황 회복과 파운드리 수주 증가가 목표주가 산정의 핵심 근거다. 다만 중국 스마트폰 수요 둔화와 환율 변동은 리스크 요인이다. HBM3E 양산 안정화가 관건."
+    },
+    {
+      "source_id": "rpt-005930-nh",
+      "institution": "NH투자증권",
+      "title": "삼성전자 - 메모리 사이클 회복과 HBM 수익성",
+      "url": "https://nhqv.com/research/005930-20260601.pdf",
+      "published_at": "2026-06-01",
+      "accessible": true,
+      "target_price": 92000,
+      "evidence_clarity_score": 0.85,
+      "raw_text": "DRAM 가격 상승과 HBM 비중 확대가 마진을 끌어올린다. 파운드리 가동률 개선도 긍정적. 중국 수요 둔화 우려가 있으나 서버향 수요가 이를 상쇄한다. HBM 경쟁 심화가 리스크."
+    },
+    {
+      "source_id": "rpt-005930-samsung",
+      "institution": "삼성증권",
+      "title": "삼성전자 - AI 서버 수요와 파운드리 회복",
+      "url": "https://samsungpop.com/research/005930-20260520.pdf",
+      "published_at": "2026-05-20",
+      "accessible": true,
+      "target_price": 90000,
+      "evidence_clarity_score": 0.8,
+      "raw_text": "AI 서버 투자 확대에 따른 고용량 메모리 수요가 구조적 성장 동력이다. 파운드리 적자 축소가 밸류에이션 재평가의 트리거. 경기 둔화 시 메모리 가격 변동성이 위험요인."
+    },
+    {
+      "source_id": "rpt-005930-kb-dup",
+      "institution": "KB증권",
+      "title": "삼성전자 - HBM 모멘텀과 메모리 업사이클 본격화 점검",
+      "url": "https://kbsec.com/research/005930-20260604.pdf",
+      "published_at": "2026-06-04",
+      "accessible": true,
+      "target_price": 94000,
+      "evidence_clarity_score": 0.88,
+      "raw_text": "메모리 가격 반등과 HBM 출하 확대로 실적 개선이 본격화된다. DRAM 업황 회복과 파운드리 수주 증가가 목표주가 산정의 핵심 근거다. 다만 중국 스마트폰 수요 둔화와 환율 변동은 리스크 요인이다. HBM3E 양산 안정화가 관건."
+    },
+    {
+      "source_id": "rpt-005930-paid",
+      "institution": "한국투자증권",
+      "title": "삼성전자 - 프리미엄 리포트(유료)",
+      "url": "https://truefriend.com/premium/005930.pdf",
+      "published_at": "2026-06-10",
+      "accessible": false,
+      "target_price": 98000,
+      "evidence_clarity_score": 0.95,
+      "raw_text": ""
+    }
+  ],
+  "000660": [
+    {
+      "source_id": "rpt-000660-mirae",
+      "institution": "미래에셋증권",
+      "title": "SK하이닉스 - HBM 독점적 지위와 가격 프리미엄",
+      "url": "https://securities.miraeasset.com/research/000660-20260608.pdf",
+      "published_at": "2026-06-08",
+      "accessible": true,
+      "target_price": 230000,
+      "evidence_clarity_score": 0.92,
+      "raw_text": "HBM 시장 선도 지위와 엔비디아향 공급 확대가 실적을 견인한다. HBM3E 12단 양산과 가격 프리미엄이 목표가의 핵심. 메모리 가격 조정과 경쟁사 진입이 리스크."
+    },
+    {
+      "source_id": "rpt-000660-samsung",
+      "institution": "삼성증권",
+      "title": "SK하이닉스 - AI 메모리 수요 슈퍼사이클",
+      "url": "https://samsungpop.com/research/000660-20260602.pdf",
+      "published_at": "2026-06-02",
+      "accessible": true,
+      "target_price": 220000,
+      "evidence_clarity_score": 0.87,
+      "raw_text": "AI 가속기 수요가 HBM 슈퍼사이클을 만든다. 캐파 증설과 수율 개선이 마진을 끌어올린다. 다만 고객사 재고 조정 가능성과 capex 부담이 위험요인."
+    },
+    {
+      "source_id": "rpt-000660-kiwoom",
+      "institution": "키움증권",
+      "title": "SK하이닉스 - 메모리 업사이클 수혜 지속",
+      "url": "https://kiwoom.com/research/000660-20260525.pdf",
+      "published_at": "2026-05-25",
+      "accessible": true,
+      "target_price": 215000,
+      "evidence_clarity_score": 0.78,
+      "raw_text": "메모리 업황 회복과 HBM 비중 확대로 ASP 상승. DRAM 일반 제품 가격도 반등. 중국 수요와 매크로 둔화가 변수."
+    }
+  ],
+  "035420": [
+    {
+      "source_id": "rpt-035420-nh",
+      "institution": "NH투자증권",
+      "title": "NAVER - 커머스 회복과 AI 검색 수익화",
+      "url": "https://nhqv.com/research/035420-20260530.pdf",
+      "published_at": "2026-05-30",
+      "accessible": true,
+      "target_price": 240000,
+      "evidence_clarity_score": 0.82,
+      "raw_text": "커머스 거래액 회복과 광고 단가 안정화가 실적을 뒷받침한다. AI 검색 도입에 따른 광고 효율 개선이 중장기 모멘텀. 다만 핀테크 규제와 일본 라인 이슈가 리스크."
+    },
+    {
+      "source_id": "rpt-035420-hana",
+      "institution": "하나증권",
+      "title": "NAVER - 광고 회복 가시화",
+      "url": "https://hanaw.com/research/035420-20260522.pdf",
+      "published_at": "2026-05-22",
+      "accessible": true,
+      "target_price": 225000,
+      "evidence_clarity_score": 0.75,
+      "raw_text": "광고 매출 성장률이 점진 회복. 콘텐츠와 클라우드 적자 축소. 경기 민감도와 트래픽 둔화가 위험요인."
+    }
+  ],
+  "207940": [
+    {
+      "source_id": "rpt-207940-samsung",
+      "institution": "삼성증권",
+      "title": "삼성바이오로직스 - 5공장 가동과 수주 모멘텀",
+      "url": "https://samsungpop.com/research/207940-20260610.pdf",
+      "published_at": "2026-06-10",
+      "accessible": true,
+      "target_price": 1150000,
+      "evidence_clarity_score": 0.88,
+      "raw_text": "5공장 가동에 따른 캐파 확대와 대형 CMO 수주가 실적을 견인한다. 바이오시밀러 파이프라인 확대도 긍정적. 환율과 글로벌 제약사 재고 조정이 리스크."
+    },
+    {
+      "source_id": "rpt-207940-noprice",
+      "institution": "대신증권",
+      "title": "삼성바이오로직스 - 산업 코멘트",
+      "url": "https://daishin.com/research/207940-20260528.pdf",
+      "published_at": "2026-05-28",
+      "accessible": true,
+      "target_price": null,
+      "evidence_clarity_score": 0.5,
+      "raw_text": "CDMO 업황은 우호적이나 구체적 목표주가는 제시하지 않는다. 수주 잔고 추이를 모니터링할 필요. 경쟁 심화가 변수."
+    }
+  ],
+  "005380": [
+    {
+      "source_id": "rpt-005380-kb",
+      "institution": "KB증권",
+      "title": "현대차 - 하이브리드 믹스 개선과 주주환원",
+      "url": "https://kbsec.com/research/005380-20260603.pdf",
+      "published_at": "2026-06-03",
+      "accessible": true,
+      "target_price": 290000,
+      "evidence_clarity_score": 0.84,
+      "raw_text": "하이브리드 판매 비중 확대로 수익성이 개선된다. 자사주 매입 등 주주환원 강화가 밸류에이션 재평가 요인. 미국 관세와 전기차 수요 둔화가 리스크."
+    },
+    {
+      "source_id": "rpt-005380-meritz",
+      "institution": "메리츠증권",
+      "title": "현대차 - 인도·미국 시장 성장",
+      "url": "https://meritz.co.kr/research/005380-20260527.pdf",
+      "published_at": "2026-05-27",
+      "accessible": true,
+      "target_price": 280000,
+      "evidence_clarity_score": 0.8,
+      "raw_text": "인도 IPO 모멘텀과 미국 시장 점유율 확대가 성장 동력. 제네시스 고급화 전략이 마진 개선. 환율과 관세 정책이 변수."
+    }
+  ]
+}

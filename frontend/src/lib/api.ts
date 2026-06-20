@@ -7,8 +7,10 @@ import type {
   UserViewParseResult,
 } from "./types";
 
-export const API_BASE =
-  process.env.NEXT_PUBLIC_API_BASE || "http://localhost:8000";
+// 기본은 상대경로("") — 브라우저가 같은 출처로 /api 를 부르고, Next 서버가 백엔드로 중계(rewrite)한다.
+// 덕분에 터널/배포 시 백엔드 주소를 브라우저에 노출하지 않아도 되고 CORS 문제도 없다.
+// 별도 백엔드 주소로 직접 호출하려면 NEXT_PUBLIC_API_BASE 를 지정한다.
+export const API_BASE = process.env.NEXT_PUBLIC_API_BASE ?? "";
 
 /** 보고서 파생 요약 페이지 URL (DEMO 샘플 링크 대상) */
 export function sourceViewUrl(sourceId: string): string {
